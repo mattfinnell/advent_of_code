@@ -205,7 +205,6 @@ def almanac_things(input_file):
 
 main, example = "almanac_main.txt", "almanac_example.txt"
 
-# pprint(almanac_part_2_brute_force(example)) # 5 Hours - 84206669  ...holy shit lol
 pprint(almanac_part_2_parallel(main)) # 1.5 Hours
 
 # pprint(almanac_things(main))
